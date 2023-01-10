@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Allerta+Stencil&family=Caveat&family=Changa&family=Chivo+Mono:wght@200;300&family=Cookie&family=Courgette&family=Dancing+Script:wght@500&family=DynaPuff:wght@400;500&family=Great+Vibes&family=Hanken+Grotesk:wght@200;300;400&family=Indie+Flower&family=Josefin+Slab:wght@200;300;400&family=Merienda:wght@300;400;500;600&family=Neucha&family=Noto+Sans&family=Nova+Mono&family=Patrick+Hand&family=Permanent+Marker&family=Sacramento&family=Shadows+Into+Light&family=Sriracha&family=Yeseva+One&display=swap'); 
+
+/*ONDE TEM COR(BACKGROUND COLOR) É PRA VER SE TA MEXENDO, DEPOIS APAGUEEEEEE*/
+
+body {
+    background-color: #faf2c7;
+    margin: auto;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+footer{
+    background-color: #ffd770;
+    width: auto;
+    margin-top: 10px;
+}
+
+.nomep{
+    background-color:white ;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 70px;
+    font-weight: bold;
+}
+
+.valorp{
+    font-size: 25px;
+    color:#ff5e2b;
+}
+
+.descp, .catp{
+    font-size: 25px;
+}
+
+.navbar{
+    background-color: #ffbd16 ;
+    
+}
+
+.nav-link{
+    margin-left: 20px;
+    font-size: 25px;
+    color: black;
+}
+
+.d-flex{
+    margin-left: 50px;
+}
+
+.titulos, .tituloh1{
+    font-family: 'Allerta Stencil', sans-serif;
+    font-size: 60px;
+}
+
+.titulos{
+    margin-left: 15px;
+
+}
+
+.mesa{
+    font-family: 'Chivo Mono', monospace;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+
+.descricao, .val, .obs, .infos, .formconta, .formaddproduto, .formcliente, .valortotal, .formcarrinho{
+    font-family: 'Chivo Mono', monospace;
+    font-size: 21px;
+
+}
+
+.valortotal{
+    color:#ff5e2b;
+}
+
+.title{
+    font-family: 'Chivo Mono', monospace;
+    font-size: 23px;
+    padding-right: 15px;
+    color:#CF1116;
+
+}
+
+.val{
+    color:#ff5e2b;
+}
+
+
+.btn-primary{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border:none;
+    border-radius:20px;
+}
+
+.btn:hover {
+    background-color:#198754;
+}
+
+.valorproduto{
+    font-family: 'Chivo Mono', monospace;
+    font-size: 21px;
+    color:black;
+}
+
+.obs{
+    color:black;
+    font-weight: bold;
+}
+
+.sobrepedidos{
+    padding-left: 30px;
+    padding-bottom: 30px;
+    padding-right: 30px;
+    margin:10px;
+    border: solid 1px;
+    border-radius: 10px;
+    border-color: black;
+    
+}
+
+.sobrepedidos:hover{
+    background-color: #ffd770;
+    
+}
+
+form .btn {
+    color:white;
+}
+
+.title:hover{
+    color: #198754;    
+}
+
+.card{
+    padding: 20px;
+}
+
+.card-title{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.col-4{
+    margin-left: 150px;
+
+}
+.collapse{
+    margin-left: 40px;
+
+}
+
+.produtos{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    /*margin-left: 50px;*/
+    border: solid 1px;
+    border-radius: 10px;
+    border-color: black;
+
+}
+
+.produtos:hover{
+    background-color: #ffd770;
+    
+}
+
+.sobrenos{
+    justify-content: center;
+    padding-left: 45px;
+    padding-right: 15px;
+    margin-left: 2px;
+    margin-right: 150px;
+    border: solid 1px;
+    border-radius: 10px;
+    border-color: grey;
+}
+.logo{
+    max-width: 150px;
+    max-height: 150px;
+}
+.rodape{
+    background-color: #ffd770 ;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 57px;
+    margin-right: 57px
+}
+.txtrodape{
+    font-family: 'Roboto Condensed', sans-serif;
+    color: white;
+    font-size: 35px;
+    text-align: center;
+}
+
+.txtrodape2{
+    font-family: 'Roboto Condensed', sans-serif; 
+    color: black;
+    text-align: center;
+    font-size: 25px
+}
+
+.icons{ 
+    margin-left: 140px;
+    color: rgb(20, 18, 18);
+}
+
+.nav-link{
+    font-family: 'Roboto Condensed', sans-serif; 
+    color: black;
+}
+
+p, a {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+a{ 
+    color:#fc9704;
+    text-decoration: none;
+}
+
+.btn{
+    background-color: #FF865F;
+    border-color: #FF865F;
+}
+
+.btn .btn-outline-success{
+    background-color: #ffd770;
+}
+.btn-link{
+    color:#fc9704;
+}

@@ -1,0 +1,52 @@
+body {
+    background-color: white;
+    margin:auto;
+    font-family: 'Roboto Condensed', sans-serif;
+    }
+footer{
+    background-color: #a6a8dc;
+}
+.navbar{
+    background-color: #433fab;
+    
+}
+.tittle{
+    font-size: 12px;
+    color: black;
+}
+.produtos{
+    margin-bottom: 15px;
+    margin-top: 15px;
+   
+}
+
+.sobrenos{
+    justify-content: center;
+    padding-left: 45px;
+    padding-right: 15px;
+    margin-left: 2px;
+    margin-right: 150px;
+    border: solid 1px;
+    border-radius: 10px;
+    border-color: grey;
+}
+.logo{
+    max-width: 150px;
+    max-height: 150px;
+}
+.rodape{
+    background-color: #F28705;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 57px;
+    margin-right: 57px;
+}
+.txtrodape{
+    font-family: 'Roboto Condensed', sans-serif;
+    color: white;
+    font-size: 25px;
+}
+.txtrodape2{
+    font-family: 'Roboto Condensed', sans-serif; 
+    color: black;
+}

@@ -1,0 +1,17 @@
+
+{% extends 'base.html' %}
+{% block conteudo %}
+<h2 class="titulos">Produtos:</h2>
+<div class="row d-flex justify-content-center">
+   {% for produto in produtos %}   
+    <div class="col-3 produtos">
+        <a class="nav-link" href="{% url 'detalhes' produto.id %}"></a>
+            <img src = "/media/{{ produto.imagem }}" width="270px" height="270px" style="margin-left: 8px;">
+        </a>
+        <a class = "title" href ="{% url 'detalhes' produto.id %}"> {{ produto.nome }}</a>
+        <p class="valorproduto">R${{produto.valor}}</p>
+        <button class="btn btn-primary" type="submit">+ Adicionar</button>
+    </div>
+   {% endfor %} 
+   </div>
+{% endblock conteudo %}

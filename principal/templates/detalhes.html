@@ -1,0 +1,17 @@
+
+{% extends 'base.html' %}
+{% block conteudo %}
+         
+<div class="row">
+     <div class="col-6">
+        <img src = "/media/{{ produto.imagem }}" width="500px" height="500px">
+     </div>
+     <div class="col-6">
+        <p class="nomep">{{produto.nome}}</p> <br>
+        <p class="valorp">Valor: R${{produto.valor}}</p> <br>
+        <p class="catp">Categoria: {{produto.categoria}}</p> <br>
+        <p class="descp">Descrição: {{produto.descricao}}</p>
+     </div>
+</div>
+
+{% endblock conteudo %}
